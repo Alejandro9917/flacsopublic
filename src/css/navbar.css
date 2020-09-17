@@ -1,0 +1,104 @@
+#nav{
+    background-color: white !important;
+}
+
+@media (max-width: 767.98px){
+    #title{
+        font-size: 14px;
+        color: #1b3a6d;
+        text-align: left;
+    }
+
+    #imgLogo{
+        width: 42px;
+        height: 66px;
+    }
+
+    #toogleBoton{
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    #title{
+        font-size: 24px;
+        text-align: left;
+        color: #1b3a6d;
+    }
+
+    #imgLogo{
+        float: left;
+        width: 54px;
+        height: 86px;
+    }
+
+    #toogleBoton{
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    #title{
+        font-size: 24px;
+        text-align: left;
+        color: #1b3a6d;
+        padding: 7px;
+    }
+
+    #imgLogo{
+        float: left;
+        width: 60px;
+        height: 92px;
+    }
+
+    .linkText{
+        color: #1b3a6d !important;
+    }
+
+    #nav{
+        width: 80vw;
+        margin-left: 10vw;
+        background-color: white !important;
+    }
+
+    .listBack{
+        background-color: #1b3a6d;
+    }
+
+    .listText{
+        color: white;
+    }
+}
+
+@media (min-width: 1200px){
+    #title{
+        float: left;
+        font-size: 18px;
+        text-align: left;
+        color: #1b3a6d;
+    }
+
+    #imgLogo{
+        float: left;
+        width: 64px;
+        height: 96px;
+    }
+
+    #nav{
+        width: 86vw;
+        margin-left: 7vw;
+        background-color: white !important;
+    }
+
+    .linkText{
+        color: #1b3a6d !important;
+    }
+
+    .listBack{
+        background-color: #1b3a6d;
+    }
+
+    .listText{
+        color: white;
+    }
+}

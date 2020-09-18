@@ -1,6 +1,62 @@
+#footer{
+    background-color: #243f5e;
+}
+
+/*Clase para poner iconos blancos*/
+.iconWhite{
+    color: white;
+}
+
+/*Clae para poner iconos azules*/
+.iconBlue{
+    color: #1b3a6d;
+    margin-bottom: 5px;
+}
+
+/*Estilos para los derechos en el footer*/
+#titleCopy{
+    color: white;
+}
+
+/*Estilo para la dirección en el footer*/
+#addressFooter{
+    color: white;
+}
+
+/*Apartado para dispositivos pequeños*/
 @media (max-width: 767.98px){
     /*Titulo del footer*/
     #titleFooter{
         font-size: 16px;
+        color: white;
+    }
+}
+
+/*Apartado para dispositivos mediamos*/
+@media (min-width: 768px) and (max-width: 991.98px){
+    /*Titulo del footer*/
+    #titleFooter{
+        color: white;
+    }
+}
+
+/*Apartado para dispositivos grandes*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+    /*Titulo del footer*/
+    #titleFooter{
+        color: white;
+    }
+
+    #contentFooter{
+        width: 80vw;
+        margin-left: 10vw;
+    }
+}
+
+/*Apartado para dispositivos xl*/
+@media (min-width: 1200px){
+    /*Titulo del footer*/
+    #titleFooter{
+        color: white;
     }
 }

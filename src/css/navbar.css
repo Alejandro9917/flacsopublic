@@ -2,56 +2,68 @@
     background-color: white !important;
 }
 
+/*Apartado para dispositivos pequeños*/
 @media (max-width: 767.98px){
-    #title{
+    /*Estilos para el titulo del sitio que pertenece al navbar*/
+    #titleNav{
         font-size: 14px;
         color: #1b3a6d;
         text-align: left;
     }
 
-    #imgLogo{
+    /*Estilos para la imagen del sitio que pertenece al navbar*/
+    #imgLogoNav{
         width: 42px;
         height: 66px;
     }
 
+    /*Estilos para posicionar el boton en el navbar*/
     #toogleBoton{
         margin-top: 15px;
     }
 }
 
+/*Apartado para dispositivos mediamos*/
 @media (min-width: 768px) and (max-width: 991.98px){
-    #title{
+    /*Estilos para el titulo del sitio que pertenece al navbar*/
+    #titleNav{
         font-size: 24px;
         text-align: left;
         color: #1b3a6d;
     }
 
-    #imgLogo{
+    /*Estilos para la imagen del sitio que pertenece al navbar*/
+    #imgLogoNav{
         float: left;
         width: 54px;
         height: 86px;
     }
 
+    /*Estilos para posicionar el boton en el navbar*/
     #toogleBoton{
         margin-top: 15px;
     }
 }
 
+/*Apartado para dispositivos grandes*/
 @media (min-width: 992px) and (max-width: 1199.98px){
-    #title{
+    /*Estilos para el titulo del sitio que pertenece al navbar*/
+    #titleNav{
         font-size: 24px;
         text-align: left;
         color: #1b3a6d;
         padding: 7px;
     }
 
-    #imgLogo{
+    /*Estilos para la imagen del sitio que pertenece al navbar*/
+    #imgLogoNav{
         float: left;
         width: 60px;
         height: 92px;
     }
 
-    .linkText{
+    /*Estilos para los links principales en el navbar*/
+    .linkTextNav{
         color: #1b3a6d !important;
     }
 
@@ -61,24 +73,29 @@
         background-color: white !important;
     }
 
-    .listBack{
+    /*Estilos para los menus despegables*/
+    .listBackNav{
         background-color: #1b3a6d;
     }
 
-    .listText{
+    /*Estilos para los links en los menus despegables*/
+    .listTextNav{
         color: white;
     }
 }
 
+/*Apartado para dispositivos xl*/
 @media (min-width: 1200px){
-    #title{
+    /*Estilos para el titulo del sitio que pertenece al navbar*/
+    #titleNav{
         float: left;
         font-size: 18px;
         text-align: left;
         color: #1b3a6d;
     }
 
-    #imgLogo{
+    /*Estilos para la imagen del sitio que pertenece al navbar*/
+    #imgLogoNav{
         float: left;
         width: 64px;
         height: 96px;
@@ -90,15 +107,18 @@
         background-color: white !important;
     }
 
-    .linkText{
+    /*Estilos para los links principales en el navbar*/
+    .linkTextNav{
         color: #1b3a6d !important;
     }
 
-    .listBack{
+    /*Estilos para los menus despegables*/
+    .listBackNav{
         background-color: #1b3a6d;
     }
 
-    .listText{
+    /*Estilos para los links en los menus despegables*/
+    .listTextNav{
         color: white;
     }
 }

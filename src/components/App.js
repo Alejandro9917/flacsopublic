@@ -1,10 +1,14 @@
 import React from "react";
-import Navbar from "./assets/Navbar";
-import Footer from "./assets/Footer";
 import {BrowserRouter as Router,
       Switch,
-      Route,
-      Link} from 'react-router-dom'
+      Route} from 'react-router-dom';
+
+//Importando Navbar y Footer
+import Navbar from "./assets/Navbar";
+import Footer from "./assets/Footer";
+
+//Importando la página principal
+import Principal from "./principal/Principal"
 
 function App() {
   return (
@@ -14,10 +18,31 @@ function App() {
 
         <Switch>
           <Route path="/" exact>
-            Página de contacto
+            <Principal/>
           </Route>
 
-          <Route path="/actividades">
+          <Route path="/investigation">
+            Página de investigacion
+          </Route>
+
+          <Route path="/activities">
+            Página de actividades
+          </Route>
+
+          <Route path="/publications">
+            Página de publicaciones
+          </Route>
+
+          <Route path="/about">
+            Página de acerca de Flacso
+          </Route>
+
+          <Route path="/aboutSystem">
+            Página de Sistema FLACSO
+          </Route>
+
+          <Route path="/contact">
+            Página de contacto
           </Route>
         </Switch>
 

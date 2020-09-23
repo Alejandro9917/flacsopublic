@@ -1,8 +1,5 @@
 import React from 'react';
 
-//Importando estilos 
-import '../../css/carousel.css'
-
 const Carousel = () =>{
     return(
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">

@@ -1,9 +1,14 @@
 import React from 'react';
 
+//Importando estilos 
+import '../../css/principal.css'
+
 //Importando componentes para crear Pirncipal
 import Carousel from './Carousel';
 //Importante la parte de accesos a investigación
 import Investigation from './Investigation';
+//Importando componente de actividades recientes
+import RecentActivities from './RecentActivities';
 
 const Principal = () => {
     return(
@@ -11,7 +16,11 @@ const Principal = () => {
             <Carousel/>
             <div className="container">
                 <div className="row">
-                    <Investigation/>
+                    <div className="col-12 col-lg-6 col-xl-4">
+                        <Investigation/>
+                        <hr/>
+                        <RecentActivities/>
+                    </div>
                 </div>
             </div>
         </React.Fragment>

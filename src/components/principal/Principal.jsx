@@ -11,6 +11,8 @@ import Investigation from './Investigation';
 import RecentActivities from './RecentActivities';
 //Importando componente de novedades
 import News from './News';
+//Importando componente de nuevas infografias
+import NewInfographic from './NewInfographic';
 
 const Principal = () => {
     return(
@@ -18,13 +20,17 @@ const Principal = () => {
             <Carousel/>
             <div className="container">
                 <div className="row">
-                    <div className="col-12 col-lg-6 col-xl-4">
+                    <div className="col-12 col-lg-6 col-xl-4 sectionTop">
                         <Investigation/>
                         <hr/>
                         <RecentActivities/>
+                        <hr/>
                     </div>
                     <div className="col-12 col-lg-6 col-xl-8">
                         <News/>
+                        <hr/>
+                        <NewInfographic/>
+                        <hr/>
                     </div>
                 </div>
             </div>

@@ -5,17 +5,24 @@ import defaultImg from '../../img/default.jpg';
 
 const News = () =>{
     return(
-        <div className="row">
-            <div className="card col-4">
-                <img src={defaultImg} className="card-img-top" alt="..."/>
+        <React.Fragment>
+            <p id="recentActPrincipal">Novedades</p>
+            <div className="row">
+                <div className="card col-6 col-sm-4 col-lg-6 col-xl-4 cardMargin">
+                    <img src={defaultImg} className="card-img-top" alt="..."/>
+                    <div className="superTextNews">Tendencias demográficas de la población salvadoreña en Estados Unidos.</div>
+                </div>
+                <div className="card col-6 col-sm-4 col-lg-6 col-xl-4 cardMargin">
+                    <img src={defaultImg} className="card-img-top" alt="..."/>
+                    <div className="superTextNews">Tendencias demográficas de la población salvadoreña en Estados Unidos.</div>
+                </div>
+                <div className="card col-6 col-sm-4 col-lg-6 col-xl-4 cardMargin">
+                    <img src={defaultImg} className="card-img-top" alt="..."/>
+                    <div className="superTextNews">Tendencias demográficas de la población salvadoreña en Estados Unidos.</div>
+                </div>          
             </div>
-            <div className="card col-4">
-                <img src={defaultImg} className="card-img-top" alt="..."/>
-            </div>
-            <div className="card col-4">
-                <img src={defaultImg} className="card-img-top" alt="..."/>
-            </div>
-        </div>
+        <button type="button" class="btn btn-light btnCardPrincipal">VER GALERÍA DE ACTIVIDADES</button>
+        </React.Fragment>
     );
 } 
 

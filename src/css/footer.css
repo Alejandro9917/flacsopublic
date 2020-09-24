@@ -23,6 +23,12 @@
     color: white;
 }
 
+/*Estilos para los iconos en el footer*/
+.iconCopy{
+    color: white;
+    font-size: 40px;
+}
+
 /*Apartado para dispositivos pequeños*/
 @media (max-width: 767.98px){
     /*Titulo del footer*/

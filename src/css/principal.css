@@ -4,6 +4,27 @@
     color: white;
 }
 
+/*Estilos para el título de actividades recientes*/
+#recentActPrincipal{
+    font-size: 25px;
+}
+
+/*Estilos para el card de actividades recientes*/
+.card{
+    border-style: unset;
+}
+
+/*Cambiar el color del cardtext*/
+.card-text{
+    color: #16304e;
+}
+
+/*Estilos para los botones de en las cartas de actividades recientes*/
+.btnCardPrincipal{
+    background-color: #16304e;
+    color: white;
+}
+
 /*Apartado para dispositivos pequeños*/
 @media (max-width: 767.98px){
     /*Estilos para los links en el componente de investigacion*/

@@ -9,6 +9,8 @@ import Carousel from './Carousel';
 import Investigation from './Investigation';
 //Importando componente de actividades recientes
 import RecentActivities from './RecentActivities';
+//Importando componente de novedades
+import News from './News';
 
 const Principal = () => {
     return(
@@ -20,6 +22,9 @@ const Principal = () => {
                         <Investigation/>
                         <hr/>
                         <RecentActivities/>
+                    </div>
+                    <div className="col-12 col-lg-6 col-xl-8">
+                        <News/>
                     </div>
                 </div>
             </div>

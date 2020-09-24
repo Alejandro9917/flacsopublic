@@ -17,7 +17,7 @@ const Carousel = () =>{
                             <p>Texto de ejemplo</p>
                         </div>
                         <div className="col-3 offset-7 col-sm-3 offset-sm-8">
-                            <button type="button" class="btn btn-light textButtonCarousel">LEER MÁS</button>
+                            <button type="button" className="btn btn-light textButtonCarousel">LEER MÁS</button>
                         </div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ const Carousel = () =>{
                             <p>Texto de ejemplo</p>
                         </div>
                         <div className="col-3 offset-7 col-sm-3 offset-sm-8">
-                            <button type="button" class="btn btn-light textButtonCarousel">LEER MÁS</button>
+                            <button type="button" className="btn btn-light textButtonCarousel">LEER MÁS</button>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const Carousel = () =>{
                             <p>Texto de ejemplo</p>
                         </div>
                         <div className="col-3 offset-7 col-sm-3 offset-sm-8">
-                            <button type="button" class="btn btn-light textButtonCarousel">LEER MÁS</button>
+                            <button type="button" className="btn btn-light textButtonCarousel">LEER MÁS</button>
                         </div>
                     </div>
                 </div>

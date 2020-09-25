@@ -8,7 +8,7 @@ import { faCogs, faUsers, faGraduationCap, faLightbulb } from '@fortawesome/free
 const Investigation = () =>{
     return(
         <React.Fragment>
-            <Link>
+            <Link to="/investigation/#des">
                 <div className="row linkTextInv">
                     <div className="col-2 col-lg-1">
                         <FontAwesomeIcon icon={faCogs} />
@@ -18,7 +18,7 @@ const Investigation = () =>{
                     </div>
                 </div>
             </Link>
-            <Link>
+            <Link to="/investigation/#gob">
                 <div className="row linkTextInv">
                     <div className="col-2 col-lg-1">
                         <FontAwesomeIcon icon={faUsers} />
@@ -28,7 +28,7 @@ const Investigation = () =>{
                     </div>
                 </div>
             </Link>
-            <Link>
+            <Link to="/investigation/#edu">
                 <div className="row linkTextInv">
                     <div className="col-2 col-lg-1">
                         <FontAwesomeIcon icon={faGraduationCap}/>
@@ -38,7 +38,7 @@ const Investigation = () =>{
                     </div>
                 </div>                
             </Link>
-            <Link>
+            <Link to="/investigation/#juv">
                 <div className="row linkTextInv">
                     <div className="col-2 col-lg-1">
                         <FontAwesomeIcon icon={faLightbulb} />
@@ -48,7 +48,7 @@ const Investigation = () =>{
                     </div>
                 </div>
             </Link>
-            <Link>
+            <Link to="/investigation/#dic">
                 <div className="row linkTextInv">
                     <div className="col-2 col-lg-1">
 

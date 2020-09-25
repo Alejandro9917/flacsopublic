@@ -6,7 +6,6 @@ import infoImg from '../../img/info.jpg';
 const NewInfographic = () =>{
     return(
         <React.Fragment>
-            <p id="recentActPrincipal">Novedades</p>
             <div className="row">
                 <div className="card col-6 col-sm-4 col-lg-6 col-xl-4 cardMargin">
                     <img src={infoImg} className="card-img-top" alt="..."/>

@@ -13,12 +13,14 @@ import RecentActivities from './RecentActivities';
 import News from './News';
 //Importando componente de nuevas infografias
 import NewInfographic from './NewInfographic';
+//Importando vídeos recientes
+import NewVideos from './NewVideos';
 
 const Principal = () => {
     return(
         <React.Fragment>
             <Carousel/>
-            <div className="container">
+            <div className="container backgroundGray">
                 <div className="row">
                     <div className="col-12 col-lg-6 col-xl-4 sectionTop">
                         <Investigation/>
@@ -31,6 +33,7 @@ const Principal = () => {
                         <hr/>
                         <NewInfographic/>
                         <hr/>
+                        <NewVideos/>
                     </div>
                 </div>
             </div>

@@ -8,7 +8,9 @@ import Navbar from "./assets/Navbar";
 import Footer from "./assets/Footer";
 
 //Importando la página principal
-import Principal from "./principal/Principal"
+import Principal from "./principal/Principal";
+//Importando el componente del sitio de investigaciom
+import Investigation from './investigation/Investigation';
 
 function App() {
   return (
@@ -22,7 +24,7 @@ function App() {
           </Route>
 
           <Route path="/investigation">
-            Página de investigacion
+            <Investigation/>
           </Route>
 
           <Route path="/activities">

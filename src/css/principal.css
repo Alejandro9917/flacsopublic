@@ -53,6 +53,11 @@
     margin-top: 10px;
 }
 
+/*Estilos para poner el fondo de color gris*/
+/*body{
+    background-color: #fafafa;
+}*/
+
 /*Apartado para dispositivos pequeños*/
 @media (max-width: 767.98px){
     /*Estilos para los elementos en el carrusel*/
@@ -120,7 +125,7 @@
 @media (min-width: 1200px){
     /*Estilos para los links en el componente de investigacion*/
     .linkTextInv{
-        font-size: 16px;
+        font-size: 17px;
     }
 
     /*Estilos para los elementos en el carrusel*/

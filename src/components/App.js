@@ -11,6 +11,8 @@ import Footer from "./assets/Footer";
 import Principal from "./principal/Principal";
 //Importando el componente del sitio de investigaciom
 import Investigation from './investigation/Investigation';
+//Importando el componente donde se muestran las actividades
+import Activities from './activities/Activities';
 
 function App() {
   return (
@@ -28,7 +30,7 @@ function App() {
           </Route>
 
           <Route path="/activities">
-            Página de actividades
+            <Activities/>
           </Route>
 
           <Route path="/publications">

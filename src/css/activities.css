@@ -1,0 +1,80 @@
+/*Estilos para el boton de las tarjetas*/
+.btnNewAct{
+    background-color: #831918;
+    border: inherit;
+    margin-left: -10px;
+}
+
+/*Estilos para colocar el titulo sobre la imagen*/
+.superNewAct{
+    background-color: rgba(125, 25, 24, 0.7);
+    width: 80%;
+    height: 30%;
+    color: white;
+    padding: 5px;
+    position: absolute;
+}
+
+/*Apartado para dispositivos pequeños*/
+@media (max-width: 767.98px){
+    /*Estilos para el titulo en la tarjeta*/
+    .cardTitleNewAct{
+        font-size: 12px;
+        font-weight: bold;
+        margin-left: -10px;
+    }
+
+    /*Estilos para el texto dentro de las tarjetas*/
+    .textNewAct{
+        font-size: 10px;
+        color: black;
+        margin-left: -10px;
+    }
+
+    .superNewAct{
+        height: 30%;
+        font-size: 14px;
+    }
+
+    .btnNewAct{
+        font-size: 12px;
+    }
+}
+
+/*Apartado para dispositivos mediamos*/
+@media (min-width: 768px) and (max-width: 991.98px){
+    /*Estilos para el titulo en la tarjeta*/
+    .cardTitleNewAct{
+        font-size: 14px;
+        font-weight: bold;
+        margin-left: -10px;
+    }
+
+    /*Estilos para el texto dentro de las tarjetas*/
+    .textNewAct{
+        font-size: 15px;
+        color: black;
+        margin-left: -10px;
+    }
+
+    .superNewAct{
+        height: 30%;
+        font-size: 19px;
+        width: 85%;
+        height: 35%;
+    }
+
+    .btnNewAct{
+        font-size: 15px;
+    }
+}
+
+/*Apartado para dispositivos grandes*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+}
+
+/*Apartado para dispositivos xl*/
+@media (min-width: 1200px){
+
+}

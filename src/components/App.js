@@ -13,6 +13,8 @@ import Principal from "./principal/Principal";
 import Investigation from './investigation/Investigation';
 //Importando el componente donde se muestran las actividades
 import Activities from './activities/Activities';
+//Importando el component donde se muestra el sistema flacso
+import SystemFlacso from './systemflacso/SystemFlacso';
 
 function App() {
   return (
@@ -42,7 +44,7 @@ function App() {
           </Route>
 
           <Route path="/aboutSystem">
-            Página de Sistema FLACSO
+            <SystemFlacso/>
           </Route>
 
           <Route path="/contact">

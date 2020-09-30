@@ -3,7 +3,10 @@ import React from 'react';
 const Audiovisual = () =>{
     return(
         <React.Fragment>
-            <p>Audiovisuales</p>
+            <div>
+                <p className="titleNewAct">Audiovisuales</p>
+                <div className="divider col-4 col-lg-8"/>
+            </div>
             <div className="row">
                 <div className="card col-6 col-sm-3 col-lg-12 cardMargin">
                     <div className="embed-responsive embed-responsive-16by9">

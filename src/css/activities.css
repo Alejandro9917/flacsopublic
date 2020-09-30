@@ -15,6 +15,20 @@
     position: absolute;
 }
 
+/*Estilos para el divisor*/
+.divider{
+    width: auto;
+    height: 5px;
+    margin-bottom: 15px;
+    margin-top: -10px;
+    background-color: #831918;
+}
+
+/*Estilos para el titulo*/
+.titleNewAct{
+    color: #16304e;
+}
+
 /*Apartado para dispositivos pequeños*/
 @media (max-width: 767.98px){
     /*Estilos para el titulo en la tarjeta*/
@@ -38,6 +52,11 @@
 
     .btnNewAct{
         font-size: 12px;
+    }
+
+    /*Estilos para el titulo*/
+    .titleNewAct{
+        font-size: 22px;
     }
 }
 
@@ -67,14 +86,77 @@
     .btnNewAct{
         font-size: 15px;
     }
+
+    /*Estilos para el titulo*/
+    .titleNewAct{
+        font-size: 25px;
+    }
 }
 
 /*Apartado para dispositivos grandes*/
 @media (min-width: 992px) and (max-width: 1199.98px){
+    /*Estilos para el titulo en la tarjeta*/
+    .cardTitleNewAct{
+        font-size: 14px;
+        font-weight: bold;
+        margin-left: -14px;
+    }
 
+    /*Estilos para el texto dentro de las tarjetas*/
+    .textNewAct{
+        font-size: 15px;
+        color: black;
+        margin-left: -15px;
+    }
+
+    .superNewAct{
+        height: 30%;
+        font-size: 18px;
+        width: 85%;
+        height: 35%;
+    }
+
+    .btnNewAct{
+        font-size: 15px;
+        margin-left: -15px;
+    }
+
+    /*Estilos para el titulo*/
+    .titleNewAct{
+        font-size: 27px;
+    }
 }
 
 /*Apartado para dispositivos xl*/
 @media (min-width: 1200px){
+    /*Estilos para el titulo en la tarjeta*/
+    .cardTitleNewAct{
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: -14px;
+    }
 
+    /*Estilos para el texto dentro de las tarjetas*/
+    .textNewAct{
+        font-size: 15px;
+        color: black;
+        margin-left: -15px;
+    }
+
+    .superNewAct{
+        height: 30%;
+        font-size: 18px;
+        width: 85%;
+        height: 35%;
+    }
+
+    .btnNewAct{
+        font-size: 15px;
+        margin-left: -15px;
+    }
+
+    /*Estilos para el titulo*/
+    .titleNewAct{
+        font-size: 29px;
+    }
 }

@@ -6,6 +6,10 @@ import defaultImg from '../../img/default.jpg';
 const NewAct = () =>{
     return(
         <React.Fragment>
+            <div>
+                <p className="titleNewAct">Actividades</p>
+                <div className="divider col-4"/>
+            </div>
             <div className="row">
                 <div className="card col-6">
                     <img src={defaultImg} className="card-img-top" alt="..."/>

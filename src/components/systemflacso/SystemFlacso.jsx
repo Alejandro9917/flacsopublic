@@ -9,7 +9,9 @@ import imgLogoSec from '../../img/logo-secretaria-general.png';
 import imgLogo from '../../img/logo.png';
 
 //Importando componente para las imagenes
-import ImgSysFlacso from './ImgSysFlacso';
+import ImgSys from './ImgSys';
+//Importando componente para los documentos 
+import DocSys from './DocSys';
 
 const SystemFlacso = () =>{
     return(
@@ -23,9 +25,9 @@ const SystemFlacso = () =>{
                         y cooperación técnica.
                     </p>
                 </div>
-                <img src={imgLogo} className="col-3" alt="Logo FLACSO"/>
-                <img src={imgLogoAni} className="col-3 offset-1" alt="Logo Aniversario"/>
-                <img src={imgLogoSec} className="col-3 offset-1" alt="Logo Secretaria General"/>
+                <img src={imgLogo} className="col-3 col-sm-2 col-xl-2 offset-xl-1" alt="Logo FLACSO"/>
+                <img src={imgLogoAni} className="col-3 offset-1 col-sm-2 offset-sm-3 col-xl-2 offset-xl-2" alt="Logo Aniversario"/>
+                <img src={imgLogoSec} className="col-3 offset-1 col-sm-2 offset-sm-3 col-xl-2 offset-xl-2" alt="Logo Secretaria General"/>
                 <div className="col-12">
                     <p className="textSysFlacso">
                         Su intención original fue apoyar a los países de América Latina en la creación de una entidad de ciencias sociales que 
@@ -41,15 +43,8 @@ const SystemFlacso = () =>{
                     <hr/>
                 </div>
             </div>
-
-            <p className="titleSysFlacso">Sedes oficiales de FLACSO</p>
-            <div className="row">
-                <div className="col-12">
-                    <hr/>
-                </div>
-            </div>
-
-            <p className="titleSysFlacso">Normativas FLACSO</p>
+            <ImgSys/>
+            <DocSys/>
         </div>
     );
 }

@@ -12,10 +12,10 @@ const Activities = () =>{
     return(
         <div className="container">
             <div className="row">
-                <div className="col-12 col-lg-7">
+                <div className="col-12 col-lg-8">
                     <NewAct/>
                 </div>
-                <div className="col-12 col-lg-4 offset-lg-1">
+                <div className="col-12 col-lg-3 offset-lg-1">
                     <Audiovisual/>
                 </div>
             </div>

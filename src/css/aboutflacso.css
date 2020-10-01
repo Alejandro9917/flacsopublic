@@ -1,0 +1,88 @@
+/*Estilos para el banner en acrca de flacso*/
+.bannerAboutFlacso{
+    color: white;
+    background-color: #16304e;
+    padding-left: 1.5%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 0.1%;
+}
+
+/*Estilos para los modal en about flacso*/
+.modalAboutFlacso{
+    color: white;
+    background-color: #16304e;
+}
+
+/*Estilos para el boton en las tarjetas*/
+.btnCardAbout{
+    color: black;
+    background-color: white;
+    float: right;
+}
+
+/*Apartado para dispositivos pequeños*/
+@media (max-width: 767.98px){
+    /*Estilos para el texto de titulo*/
+    .titleAboutFlacso{
+        font-size: 17px;
+    }
+
+    /*Estilos para el texto de información*/
+    .textAboutFlacso{
+        font-size: 13.5px;
+    }
+    
+    .bannerAboutFlacso{
+        font-size: 14.5px;
+    }
+}
+
+/*Apartado para dispositivos mediamos*/
+@media (min-width: 768px) and (max-width: 991.98px){
+    /*Estilos para el texto de titulo*/
+    .titleAboutFlacso{
+        font-size: 25px;
+    }
+
+    /*Estilos para el texto de información*/
+    .textAboutFlacso{
+        font-size: 15px;
+    }
+    
+    .bannerAboutFlacso{
+        font-size: 16px;
+    }
+}
+
+/*Apartado para dispositivos grandes*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+    /*Estilos para el texto de titulo*/
+    .titleAboutFlacso{
+        font-size: 29px;
+    }
+
+    /*Estilos para el texto de información*/
+    .textAboutFlacso{
+        font-size: 15px;
+    }
+    
+    .bannerAboutFlacso{
+        font-size: 16.5px;
+    }
+}
+
+/*Apartado para dispositivos xl*/
+@media (min-width: 1200px){
+    /*Estilos para el texto de titulo*/
+    .titleAboutFlacso{
+        font-size: 35px;
+    }
+    
+    .bannerAboutFlacso{
+        font-size: 19px;
+        padding-left: 1%;
+        padding-right: 1.2%;
+        padding-top: 0.7%;
+    }
+}

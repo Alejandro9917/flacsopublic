@@ -11,7 +11,7 @@ const NewAct = () =>{
                 <div className="divider col-4"/>
             </div>
             <div className="row">
-                <div className="card col-6">
+                <div className="card col-6 col-sm-4 col-lg-6 col-xl-4">
                     <img src={defaultImg} className="card-img-top" alt="..."/>
                     <div className="superNewAct">Titulo de ejemplo</div>
                     <div className="card-body">
@@ -20,7 +20,7 @@ const NewAct = () =>{
                         <button className="btn btn-primary btnNewAct">LEER MÁS</button>
                     </div>
                 </div>
-                <div className="card col-6">
+                <div className="card col-6 col-sm-4 col-lg-6 col-xl-4">
                     <img src={defaultImg} className="card-img-top" alt="..."/>
                     <div className="superNewAct">Titulo de ejemplo</div>
                     <div className="card-body">
@@ -29,7 +29,7 @@ const NewAct = () =>{
                         <button className="btn btn-primary btnNewAct">LEER MÁS</button>
                     </div>
                 </div>
-                <div className="card col-6">
+                <div className="card col-6 col-sm-4 col-lg-6 col-xl-4">
                     <img src={defaultImg} className="card-img-top" alt="..."/>
                     <div className="superNewAct">Titulo de ejemplo</div>
                     <div className="card-body">
@@ -38,7 +38,7 @@ const NewAct = () =>{
                         <button className="btn btn-primary btnNewAct">LEER MÁS</button>
                     </div>
                 </div>
-                <div className="card col-6">
+                <div className="card col-6 col-sm-4 col-lg-6 col-xl-4">
                     <img src={defaultImg} className="card-img-top" alt="..."/>
                     <div className="superNewAct">Titulo de ejemplo</div>
                     <div className="card-body">
@@ -47,7 +47,7 @@ const NewAct = () =>{
                         <button className="btn btn-primary btnNewAct">LEER MÁS</button>
                     </div>
                 </div>
-                <div className="card col-6">
+                <div className="card col-6 col-sm-4 col-lg-6 col-xl-4">
                     <img src={defaultImg} className="card-img-top" alt="..."/>
                     <div className="superNewAct">Titulo de ejemplo</div>
                     <div className="card-body">
@@ -56,7 +56,7 @@ const NewAct = () =>{
                         <button className="btn btn-primary btnNewAct">LEER MÁS</button>
                     </div>
                 </div>
-                <div className="card col-6">
+                <div className="card col-6 col-sm-4 col-lg-6 col-xl-4">
                     <img src={defaultImg} className="card-img-top" alt="..."/>
                     <div className="superNewAct">Titulo de ejemplo</div>
                     <div className="card-body">

@@ -21,6 +21,11 @@
     float: right;
 }
 
+/*Editar el modal content para center*/
+.imgAboutFlacso{
+    justify-content: center;
+}
+
 /*Apartado para dispositivos pequeños*/
 @media (max-width: 767.98px){
     /*Estilos para el texto de titulo*/

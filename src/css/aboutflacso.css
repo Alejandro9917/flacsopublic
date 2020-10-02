@@ -21,9 +21,20 @@
     float: right;
 }
 
-/*Editar el modal content para center*/
-.imgAboutFlacso{
-    justify-content: center;
+/*Estilos para el contenedor de las cards*/
+.containerAbout{
+    margin-bottom: 10px;
+}
+
+/*Estilo para el titulo en la tarjeta*/
+.cardTitleAbout{
+    font-weight: bold;
+    color: white;
+}
+
+/*Estilo para el texto dentro de la tarjeta*/
+.cardTextAbout{
+    color: white;
 }
 
 /*Apartado para dispositivos pequeños*/
@@ -58,6 +69,7 @@
     .bannerAboutFlacso{
         font-size: 16px;
     }
+
 }
 
 /*Apartado para dispositivos grandes*/

@@ -11,6 +11,8 @@ import TextAboutFlacso from './TextAboutFlacso';
 import MVAboutFlacso from './MVAboutFlacso';
 //Importando modulo de directores de flacso
 import Director from './Director';
+//Importando el componente de consejo de asesores
+import CouncilAboutFlacso from './CouncilAboutFlacso';
 
 const AboutFlacso = () =>{
     return(
@@ -24,6 +26,11 @@ const AboutFlacso = () =>{
                     <p className="titleAboutFlacso">Directores FLACSO</p>
                 </div>
                 <Director/>
+                <div className="col-12 containerAbout">
+                    <hr/>
+                    <p className="titleAboutFlacso">Consejo asesor</p>
+                    <CouncilAboutFlacso/>
+                </div>
             </div>   
         </div>
     );

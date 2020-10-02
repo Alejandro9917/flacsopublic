@@ -17,6 +17,8 @@ import Activities from './activities/Activities';
 import SystemFlacso from './systemflacso/SystemFlacso';
 //Importando el componente donde se muestra información de flacso
 import AboutFlacso from './aboutflacso/AboutFlacso';
+//Impportando el componente de contacto
+import Contact from './contact/Contact';
 
 function App() {
   return (
@@ -50,7 +52,7 @@ function App() {
           </Route>
 
           <Route path="/contact">
-            Página de contacto
+            <Contact/>
           </Route>
         </Switch>
 

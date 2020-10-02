@@ -22,7 +22,7 @@ const ImgSys = () =>{
         <React.Fragment>
             <p className="titleSysFlacso">Sedes oficiales de FLACSO</p>
             <div className="row">
-                <div className="col-12 col-xl-10">
+                <div className="col-12 col-xl-10 offset-xl-1">
                     <ImgSysFlacso img={logoArg} alt="Logo Argentina" link="http://flacso.org.ar/"/>
                     <ImgSysFlacso img={logoBra} alt="Logo Brazil" link="http://flacso.org.br/"/>
                     <ImgSysFlacso img={logoChi} alt="Logo Chile" link="http://www.flacsochile.org/"/>

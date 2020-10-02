@@ -21,7 +21,7 @@ const News = () =>{
                     <div className="superTextNews">Tendencias demográficas de la población salvadoreña en Estados Unidos.</div>
                 </div>          
             </div>
-        <button type="button" class="btn btn-light btnCardPrincipal">VER GALERÍA DE ACTIVIDADES</button>
+        <button type="button" className="btn btn-light btnCardPrincipal">VER GALERÍA DE ACTIVIDADES</button>
         </React.Fragment>
     );
 } 

@@ -17,7 +17,7 @@ const NewInfographic = () =>{
                     <img src={infoImg} className="card-img-top" alt="..."/>
                 </div>              
             </div>
-            <button type="button" class="btn btn-light btnCardPrincipal">VER GALERÍA DE INFOGRAFÍAS</button>
+            <button type="button" className="btn btn-light btnCardPrincipal">VER GALERÍA DE INFOGRAFÍAS</button>
         </React.Fragment>
     );
 }

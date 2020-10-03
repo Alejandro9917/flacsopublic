@@ -18,7 +18,7 @@ const Navbar = () => {
             </div>
 
             <div className="col-7 col-sm-8 col-lg-10 col-xl-4" id="titleNav">
-                <p>Facultad Latinoamericana de de Ciencias Sociales FLACSO El Salvador</p>
+              <p>Facultad Latinoamericana de de Ciencias Sociales FLACSO El Salvador</p>
             </div>
 
             <div className="col-1 col-sm-2">

@@ -20,6 +20,9 @@ import AboutFlacso from './aboutflacso/AboutFlacso';
 //Impportando el componente de contacto
 import Contact from './contact/Contact';
 
+//Importando el componente para mostrar una infografia en concreto
+import RedirectInfographic from './redirectinfographic/RedirectInfographic';
+
 function App() {
   return (
     <Router>
@@ -53,6 +56,10 @@ function App() {
 
           <Route path="/contact">
             <Contact/>
+          </Route>
+
+          <Route path="/redirect">
+            <RedirectInfographic/>
           </Route>
         </Switch>
 

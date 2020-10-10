@@ -8,17 +8,17 @@ const NewInfographic = () =>{
     return(
         <React.Fragment>
             <div className="row">
-                <div className="card col-6 col-sm-4 col-lg-6 col-xl-4 cardMargin">
+                <div className="card col-6 col-sm-4 col-lg-6 col-xl-4 cardMargin bgGray">
                     <Link to="/redirect">
                         <img src={infoImg} className="card-img-top" alt="..."/>
                     </Link>
                 </div>
-                <div className="card col-6 col-sm-4 col-lg-6 col-xl-4 cardMargin">
+                <div className="card col-6 col-sm-4 col-lg-6 col-xl-4 cardMargin bgGray">
                     <Link to="/redirect">
                         <img src={infoImg} className="card-img-top" alt="..."/>
                     </Link>
                 </div>
-                <div className="card col-6 col-sm-4 col-lg-6 col-xl-4 cardMargin">
+                <div className="card col-6 col-sm-4 col-lg-6 col-xl-4 cardMargin bgGray">
                     <Link to="/redirect">
                         <img src={infoImg} className="card-img-top" alt="..."/>
                     </Link>

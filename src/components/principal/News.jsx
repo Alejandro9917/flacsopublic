@@ -8,15 +8,15 @@ const News = () =>{
         <React.Fragment>
             <p id="recentActPrincipal">Novedades</p>
             <div className="row">
-                <div className="card col-6 col-sm-4 col-lg-6 col-xl-4 cardMargin">
+                <div className="card col-6 col-sm-4 col-lg-6 col-xl-4 cardMargin bgGray">
                     <img src={defaultImg} className="card-img-top" alt="..."/>
                     <div className="superTextNews">Tendencias demográficas de la población salvadoreña en Estados Unidos.</div>
                 </div>
-                <div className="card col-6 col-sm-4 col-lg-6 col-xl-4 cardMargin">
+                <div className="card col-6 col-sm-4 col-lg-6 col-xl-4 cardMargin bgGray">
                     <img src={defaultImg} className="card-img-top" alt="..."/>
                     <div className="superTextNews">Tendencias demográficas de la población salvadoreña en Estados Unidos.</div>
                 </div>
-                <div className="card col-6 col-sm-4 col-lg-6 col-xl-4 cardMargin">
+                <div className="card col-6 col-sm-4 col-lg-6 col-xl-4 cardMargin bgGray">
                     <img src={defaultImg} className="card-img-top" alt="..."/>
                     <div className="superTextNews">Tendencias demográficas de la población salvadoreña en Estados Unidos.</div>
                 </div>          

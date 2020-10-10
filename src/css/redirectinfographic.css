@@ -1,0 +1,125 @@
+/*Estilos para el titulo*/
+.titleInfographic{
+    font-weight: 500;
+    color: #16304e;
+}
+
+/*Estilos para la fecha que aparece debajo del titulo*/
+.dateInfographic{
+    font-weight: 600;
+    margin-top: -12px;
+}
+
+/*Estilos para los temas y opciones*/
+.extrasInfographic{
+    color: #16304e;
+    font-weight: 400;
+}
+
+/*Estilos para el divisor que se presenta al lado de la infografía*/
+.dividerInfographic{
+    width: auto;
+    height: 5px;
+    margin-top: -10px;
+    background-color: #f7ca09;
+}
+
+/*Estilos para los tags asociados*/
+.tagInfographic{
+    padding: 3px;
+    margin-bottom: 5px;
+    margin-right: 6px;
+    background-color: #f7ca09;
+    color: white;
+}
+
+/*Estilos para el contenedor de los extras*/
+.contentTagsInfographic
+{
+    margin-left: 4px;
+    padding-top: 10px;
+}
+
+/*Estilos para el boton de ver la galería de infografías*/
+.btnInfographic{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: #16304e;
+    color: white;
+}
+
+/*Apartado para dispositivos pequeños*/
+@media (max-width: 767.98px){
+    .titleInfographic{
+        font-size: 17px;
+    }
+
+    .dateInfographic{
+        font-size: 12px;
+    }
+
+    .extrasInfographic{
+        font-size: 15px;
+    }
+
+    .tagInfographic{
+        font-size: 12px;
+    }
+}
+
+/*Apartado para dispositivos mediamos*/
+@media (min-width: 768px) and (max-width: 991.98px){
+    .titleInfographic{
+        font-size: 20px;
+    }
+
+    .dateInfographic{
+        font-size: 12px;
+    }
+
+    .extrasInfographic{
+        font-size: 17px;
+    }
+
+    .tagInfographic{
+        font-size: 13px;
+    }
+}
+
+/*Apartado para dispositivos grandes*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .titleInfographic{
+        font-size: 25px;
+    }
+
+    .dateInfographic{
+        font-size: 13px;
+    }
+
+    .extrasInfographic{
+        font-size: 18px;
+    }
+
+    .tagInfographic{
+        font-size: 13px;
+    }
+}
+
+/*Apartado para dispositivos xl*/
+@media (min-width: 1200px){
+    .titleInfographic{
+        font-size: 26px;
+    }
+
+    .dateInfographic{
+        font-size: 13px;
+    }
+
+    .extrasInfographic{
+        font-size: 18px;
+    }
+
+    .tagInfographic{
+        font-size: 14px;
+    }
+}

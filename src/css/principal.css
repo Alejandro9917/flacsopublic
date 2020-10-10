@@ -1,3 +1,10 @@
+body{
+    background-color: #fafafa;
+}
+.bgGray{
+    background-color: #fafafa;
+}
+
 /*Estilos para el modulo de carrusel en principal*/
 #carouselExampleIndicators{
     background-color: #e97623;

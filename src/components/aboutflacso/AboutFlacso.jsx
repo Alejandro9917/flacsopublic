@@ -26,7 +26,7 @@ const AboutFlacso = () =>{
                     <p className="titleAboutFlacso">Directores FLACSO</p>
                 </div>
                 <Director/>
-                <div className="col-12 containerAbout">
+                <div className="col-12 containerAboutFlacso">
                     <hr/>
                     <p className="titleAboutFlacso">Consejo asesor</p>
                     <CouncilAboutFlacso/>

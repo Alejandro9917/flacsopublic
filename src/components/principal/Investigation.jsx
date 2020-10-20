@@ -9,7 +9,7 @@ const Investigation = () =>{
     return(
         <React.Fragment>
             <Link to="/investigation/#des">
-                <div className="row linkTextInv">
+                <div className="row linkTextPrincipal">
                     <div className="col-2 col-lg-1">
                         <FontAwesomeIcon icon={faCogs} />
                     </div>
@@ -19,7 +19,7 @@ const Investigation = () =>{
                 </div>
             </Link>
             <Link to="/investigation/#gob">
-                <div className="row linkTextInv">
+                <div className="row linkTextPrincipal">
                     <div className="col-2 col-lg-1">
                         <FontAwesomeIcon icon={faUsers} />
                     </div>
@@ -29,7 +29,7 @@ const Investigation = () =>{
                 </div>
             </Link>
             <Link to="/investigation/#edu">
-                <div className="row linkTextInv">
+                <div className="row linkTextPrincipal">
                     <div className="col-2 col-lg-1">
                         <FontAwesomeIcon icon={faGraduationCap}/>
                     </div>
@@ -39,7 +39,7 @@ const Investigation = () =>{
                 </div>                
             </Link>
             <Link to="/investigation/#juv">
-                <div className="row linkTextInv">
+                <div className="row linkTextPrincipal">
                     <div className="col-2 col-lg-1">
                         <FontAwesomeIcon icon={faLightbulb} />
                     </div>
@@ -49,7 +49,7 @@ const Investigation = () =>{
                 </div>
             </Link>
             <Link to="/investigation/#dic">
-                <div className="row linkTextInv">
+                <div className="row linkTextPrincipal">
                     <div className="col-2 col-lg-1">
 
                     </div>

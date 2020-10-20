@@ -4,6 +4,10 @@
     border: inherit;
     margin-left: -10px;
 }
+.cardMarginAct{
+    margin-bottom: 15px;
+}
+
 
 /*Estilos para colocar el titulo sobre la imagen*/
 .superNewAct{
@@ -16,7 +20,7 @@
 }
 
 /*Estilos para el divisor*/
-.divider{
+.dividerAct{
     width: auto;
     height: 5px;
     margin-bottom: 15px;
@@ -80,7 +84,6 @@
         height: 30%;
         font-size: 19px;
         width: 85%;
-        height: 35%;
     }
 
     .btnNewAct{
@@ -113,7 +116,6 @@
         height: 30%;
         font-size: 18px;
         width: 85%;
-        height: 35%;
     }
 
     .btnNewAct{
@@ -147,7 +149,6 @@
         height: 30%;
         font-size: 18px;
         width: 85%;
-        height: 35%;
     }
 
     .btnNewAct{

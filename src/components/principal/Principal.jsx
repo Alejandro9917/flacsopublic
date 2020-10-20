@@ -20,9 +20,9 @@ const Principal = () => {
     return(
         <React.Fragment>
             <Carousel/>
-            <div className="container backgroundGray">
+            <div className="container bgGrayPrincipal">
                 <div className="row">
-                    <div className="col-12 col-lg-6 col-xl-4 sectionTop">
+                    <div className="col-12 col-lg-6 col-xl-4 sectionTopPrincipal">
                         <Investigation/>
                         <hr/>
                         <RecentActivities/>

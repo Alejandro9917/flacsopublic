@@ -3,13 +3,13 @@ import React from 'react';
 const DirectoresAboutFlacso = (props) =>{
     return(
         <React.Fragment>
-            <div className="col-12 col-sm-6 containerAbout">
+            <div className="col-12 col-sm-6 containerAboutFlacso">
                 <div className="card modalAboutFlacso">
                     <div className="card-body">
-                        <p className="card-title cardTitleAbout">{props.name}</p>
+                        <p className="card-title cardTitleAboutFlacso">{props.name}</p>
                         <p className="card-subtitle mb-2 cardTextAbout">Director FLACSO {props.year}</p>
-                        <p className="card-text cardTextAbout">{props.description}</p>
-                        <button type="button" className="btn btn-ligth btnCardAbout" data-toggle="modal" data-target={props.identi}>Ver más</button>
+                        <p className="card-text cardTextAboutFlacso">{props.description}</p>
+                        <button type="button" className="btn btn-ligth btnCardAboutFlacso" data-toggle="modal" data-target={props.identi}>Ver más</button>
                     </div>
                 </div>
             </div>

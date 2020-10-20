@@ -15,25 +15,25 @@
 }
 
 /*Estilos para el boton en las tarjetas*/
-.btnCardAbout{
+.btnCardAboutFlacso{
     color: black;
     background-color: white;
     float: right;
 }
 
 /*Estilos para el contenedor de las cards*/
-.containerAbout{
+.containerAboutFlacso{
     margin-bottom: 10px;
 }
 
 /*Estilo para el titulo en la tarjeta*/
-.cardTitleAbout{
+.cardTitleAboutFlacso{
     font-weight: bold;
     color: white;
 }
 
 /*Estilo para el texto dentro de la tarjeta*/
-.cardTextAbout{
+.cardTextAboutFlacso{
     color: white;
 }
 
